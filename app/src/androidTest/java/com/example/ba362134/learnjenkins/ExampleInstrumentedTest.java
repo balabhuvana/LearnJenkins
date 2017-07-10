@@ -24,31 +24,4 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.ba362134.learnjenkins", appContext.getPackageName());
     }
 
-    @Test
-    public void useAdd() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-        assertEquals(100, 100);
-    }
-
-    @Test
-    public void useSub() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-        assertEquals(150, 150);
-    }
-
-    @Test
-    public void useMul() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-        assertEquals(250, 250);
-    }
-
-    @Test
-    public void useDiv() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-        assertEquals(300, 300);
-    }
 }
